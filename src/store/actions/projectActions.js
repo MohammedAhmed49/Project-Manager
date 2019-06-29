@@ -1,5 +1,5 @@
 export const createProject = (project) => {
     return(dispatch, getState) => {
-        dispatch({ type: 'ADD_PROJECT', project });
+        dispatch({ type: 'CREATE_PROJECT', project });
     }
 }
